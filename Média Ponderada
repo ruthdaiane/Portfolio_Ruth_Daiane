@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <h1>Página que calcula média ponderada</h1>
+
+    <label for="nota1">Nota 1:</label>
+    <input type="number" id="nota1">
+
+    <label for="peso1">Peso 1:</label>
+    <input type="number" id="peso1">
+    
+    <label for="nota2">Nota 2:</label>
+    <input type="number" id="nota2">
+
+    <label for="peso2">Peso 2:</label>
+    <input type="number" id="peso2">
+
+    <button onclick="calcularMedia()">Calcular média</button>
+
+    <script>
+
+      function calcularMedia(){
+
+        var nota1 = parseFloat(doument.getElementById('nota1').value);
+        var peso1 = parseFloat(doument.getElementById('peso1').value);
+        var nota2 = parseFloat(doument.getElementById('nota2').value);
+        var peso2 = parseFloat(doument.getElementById('peso2').value);
+
+        google.script.run.exibeMedia(nota1, peso1, nota2, peso2);
+        
+      }
+  </body>
+</html>
