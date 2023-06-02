@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <h1> Login </h1>
+
+    <form id="login-form">
+      <label for="email">E-mail: </label>
+      <input type="email" id="email" name="email" required></br>
+      <label for="password">Senha: </label>
+      <input type="password" id="password" name="password" required></br>
+      <input type="submit" value = "login"> 
+      </form>
+      
+      <div id="result"></div>
+      
+      <script>
+        document.getElementById('login-form').addEventListener('submit', function(event){
+          event.preventDefault();
+          var email = document.getElementById('email').value;
+          var password = document.getElementById('password').value;
+
+          google.script.run.withSuccessHandler(displayResult).checkLogin(email, password);
+          });
+
+          function displayResult(result){
+            document.getElementById('result').innerHTML = result;
+
+          }
+          </script>
+  </body>
+</html>
