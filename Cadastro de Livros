@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    
+    <? var url = getUrl() ?>
+
+    <form action="<? url ?>" method="post">
+
+      <label for="titulo">Titulo do livro</label>
+      <input type="text" id="titulo" name="titulo">
+
+      <label for="autor">Autor</label>
+      <input type="text" id="autor" name="autor">
+
+      <label for="dataLancamento">Data de lançamento</label>
+      <input type="date" id="dataLancamento" name="dataLancamento">
+
+      <label for="qtdPagina">Quantidade de página</label>
+      <input type="text" id="qtdPagina" name="qtdPagina">
+
+      <label for="qtdLivro">Quantidade de Livro</label>
+      <input type="text" id="qtdLivro" name="qtdLivro">
+
+      <button type="submit">Cadastrar</button>
+    </form>
+  </body> 
+</html>
