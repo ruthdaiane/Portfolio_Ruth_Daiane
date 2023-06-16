@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    
+    <? var url = getUrl() ?>
+
+    <form action="<?= url ?>" method="post">
+      <label for="msg">Mensagem</label>
+      <input type="text" id="text" name="msg">
+
+      <label for="endereco">Endereço</label>
+      <input type="text" id="endereco" name="endereco"
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
