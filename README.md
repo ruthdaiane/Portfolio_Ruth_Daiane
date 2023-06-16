@@ -47,3 +47,27 @@ Descrição: Não foi possível implantar o projeto, pois estava sempre dando er
 
 Link para acesso ao projeto:
 <a href="https://script.google.com/macros/u/1/s/AKfycbwtlqh47ykCcKotRkeUX1_UtPAJRINGrG9-nIZUXNHnZx16Zsf6cHz61v93shxO76Q/exec">Login do Usuário</a>
+
+<h1>Projeto: Endereço</h1>
+
+Arquivo(s):
+<ul>
+	<li>Endereço</li>
+</ul>
+
+Descrição: Página Web para colocar o endereço do usuário.
+
+Tecnologias utilizadas:
+
+<ul>
+	<li>JavaScript</li>
+</ul>
+
+Dificuldades/erros encontrados durante o desenvolvimento do projeto:
+
+Função de script não encontrada: doGet
+
+Descrição: Não foi possível implantar o projeto, pois estava sempre dando essa mesma mensagem.
+
+Link para acesso ao projeto:
+<a href="https://script.google.com/macros/s/AKfycbzIURQzaXdyQCVeQCTdc3fiaFKyxT-dx82mLgVpr9YVFqkPUhnblLpEz8uZwkHzKO1k8Q/exec">Endereço</a>
