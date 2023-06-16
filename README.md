@@ -1,3 +1,5 @@
+
+
 Portfólio para documentar o processo de aprendizado da disciplina de Programação Web.
 
 <h1>Projeto: Página para calcular média</h1>
@@ -71,3 +73,28 @@ Descrição: Não foi possível implantar o projeto, pois estava sempre dando es
 
 Link para acesso ao projeto:
 <a href="https://script.google.com/macros/s/AKfycbzIURQzaXdyQCVeQCTdc3fiaFKyxT-dx82mLgVpr9YVFqkPUhnblLpEz8uZwkHzKO1k8Q/exec">Endereço</a>
+
+<h1>Projeto: Cadastro de Livros</h1>
+
+Arquivo(s):
+<ul>
+	<li>cadLivro</li>
+</ul>
+
+Descrição: Página Web para cadastrar livros, contendo: Título, autor, data de lançamento e quantidade de páginas. 
+
+Tecnologias utilizadas:
+
+<ul>
+	<li>JavaScript</li>
+</ul>
+
+Dificuldades/erros encontrados durante o desenvolvimento do projeto:
+
+Função de script não encontrada: doGet
+Exception: Nenhum arquivo HTML com o nome cadLivro foi encontrado. (linha 2, arquivo "Código")
+
+Descrição: Ao implatar o projeto chegou a aparecer os dois códigos mencionados acima, porém, não encontrei o erro que apareceu na Linha 2, pois estava igual ao código que o professor passou na aula, então foi impossivel para mim descobrir meu erro. 
+
+Link para acesso ao projeto:
+<a href="https://script.google.com/macros/s/AKfycbxprgLeeEfFyxbFjsLHwpznIlT70UgeOL6sMkQWp2sHG8Ss8gzRgrmr7ZPdsGWaBhLX/exec">Cadastro de Livros</a>
