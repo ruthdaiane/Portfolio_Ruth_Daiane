@@ -1,5 +1,3 @@
-
-
 Portfólio para documentar o processo de aprendizado da disciplina de Programação Web.
 
 <h1>Projeto: Página para calcular média</h1>
@@ -98,3 +96,46 @@ Descrição: Ao implatar o projeto chegou a aparecer os dois códigos mencionado
 
 Link para acesso ao projeto:
 <a href="https://script.google.com/macros/s/AKfycbxprgLeeEfFyxbFjsLHwpznIlT70UgeOL6sMkQWp2sHG8Ss8gzRgrmr7ZPdsGWaBhLX/exec">Cadastro de Livros</a>
+
+<h1>Projeto: Merenda Escolar</h1>
+
+Arquivo(s):
+<ul>
+	<li>merenda_alunos</li>
+</ul>
+
+Descrição: Página Web para saber quando será preciso gastar para custear a merenda dos alunos em um determinado mês, contendo: Número de dias do mês, quantidade de alunos da escola e o valor da refeição por dia.  
+
+Tecnologias utilizadas:
+
+<ul>
+	<li>JavaScript</li>
+</ul>
+
+<ul>
+	<li>PlanilhaGoogle</li>
+</ul>
+
+Dificuldades/erros encontrados durante o desenvolvimento do projeto:
+
+Na execução doGet, sempre aparecia o mesmo erro. 
+
+TypeError: Cannot read properties of undefined (reading 'parameter') doGeT	@ Código.gs:11
+
+Descrição: Tentei ajeitar o código e não encontrei o erro, e mesmo assim, tentei implanar o projeto, porém, apareceu essa mensagem: "O Documentos Google encontrou um erro. Tente recarregar esta página ou voltar novamente em alguns minutos." Tentei varias vezes, em diferentes horarios, e sempre deu a mesma mensagem. 
+
+Funções utilizadas:
+
+<ul>
+	<li>doGet</li>
+</ul>
+
+<ul>
+	<li>doPost</li>
+</ul>
+
+Arquivo Planilha Google:
+<a href="https://docs.google.com/spreadsheets/d/1xogz0VTy6lA7e2ixwKaxOmSOBhKa5D0fZU50tX5MrIs/edit?usp=sharing">MerendaEscolar</a>
+
+Link para acesso ao projeto:
+<a href="https://script.google.com/macros/u/1/s/AKfycbxkrWu6E2L-E3XsdnbJtIo51orr4kb-dn9GsV0soKYDY1hoJaTJqXBbS0bAluP2RbM/exec">MerendaEscolar</a>
