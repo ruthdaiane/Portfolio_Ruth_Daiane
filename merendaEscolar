@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    
+    <? var url = getUrl () ?>
+
+    <form action="<?= url?>" method="post">
+
+      <label for="dias">Número de dia do mês</label>
+      <input type="number" id="dias" name="dias">
+
+      <label for="qtdAlunos">Quantidade de alunos da escola</label>
+      <input type="number" id="qtdAlunos" name="qtdAlunos">
+
+      <label for="valorRefeicao">Valor da refeição por dia</label>
+      <input type="number" id="valorRefeicao" name="valorRefeicao">
+
+      <button onclick="valorMerenda">Calcular valor merenda</button>
+
+      <div>
+        <p>Resultado:</p>
+        <p id="valorMerenda"></p>
+      </div>
+
+      <script>
+        
+        function valorMerenda(){
+
+          var dias = parseFloat(document.getElementById('dias').value);
+          var qtdAlunos = parseFloat(document.getElementById('qtdAlunos').value);
+          var valorRefeicao = parseFloat(document.getElementById)('valorRefeicao').value);
+
+          google.script.run.valorMerenda(dia, qtdAlunos, valorRefeicao);
+
+        }
+
+        </script>
+
+  </body>
+</html>
