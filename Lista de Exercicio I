@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <? var url = getUrl() ?>
+      <h1> Página para saber quanto Joana gastou na viagem </h1>
+  <form action="<?= url ?>" method="POST">
+  
+    <label for="distanciaViagem">Distancia da Viagem: </label>
+    <input type="number" id="distanciaViagem" name="distanciaViagem" />
+
+    <label for="consumoCombustivel">Consumo do Combustivel: </label>
+    <input type="number" id="consumoCombustivel" name="consumoCombustivel" />
+
+    <label for="precoGasolina">Preço Gasolina</label>
+    <input type="number" id="precoGasolina" name="precoGasolina" />
+
+    <button onclick="calculargasto()">Calcular gasto</button>
+    
+    <div>
+      <p>Resultado:</p>
+      <p id="resultadocalcular"></p>
+    </div>
+
+   <script>
+    
+      function calculargasto() {
+
+        var distanciaViagem = parseFloat(document.getElementById('distanciaViagem').value);
+        var consumoCombustivel = parseFloat(document.getElementById('consumoCombustivel').value);      
+        var precoGasolina = parseFloat(document.getElementById('precoGasolina').value);  
+
+      
+    }
+      function exibircalculo(calculo) {
+        var resultadocalcular = document.getElementById('resultadocalcular');
+        resultadocalcular.innerHTML = calculo;
+
+    }
+    </script>
+  </form>
+  </body>
+</html>
